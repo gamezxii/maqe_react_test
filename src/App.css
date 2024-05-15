@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #f27859;
+  --color-secondary: #828d9a;
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.current-timezone {
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
